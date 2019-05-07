@@ -1,0 +1,125 @@
+/* Menu */
+#menu {width: 80%; background: #fff; margin: 0% 10%; float: left; border-radius: 5px; } /*bloco menu*/
+#menu {padding: 0 0 0 0 ; }
+#menu ul{margin: 0%; padding: 0 ; list-style: none; width: 100%; float: left;}
+#menu ul li {float: left; font: 100% arial;}
+#menu ul li a {color: #888;  text-decoration:#fff ; padding: 20px; display: block;}
+#menu ul li:hover {background: #eee;border-radius: 5px;}
+#menu ul li.hover {background: #999999; float: left; width: 100%;}
+
+html, body, h1, h2,
+h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+body {
+	font-family: Helvetica, Arial, "Times New Roman", sans-serif
+	padding: 0 0 0 0;
+	background-color: #000000;
+	background-image: url(../img/back.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;		
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 200%
+} 
+
+.corpo{
+	width: 76%;
+	padding: 20px 20px 20px 20px;
+	border: 0px ;
+	margin: 30px auto 0 auto;
+	/*opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);*/
+}
+
+.corpo p{
+	line-height: 36px;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 0 0 15px 0;
+	font-size: 200%;
+} 
+
+.titulopagina{
+	font-size: 200%;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 100%;
+	margin: 20px 0 20px 0;
+	text-align: center;
+	font-weight: bold;
+	color: #eee;
+
+}
+
+h3 {
+	font-size: 70%;
+	text-align: center;
+	color: #eee;
+}
+
+.img {
+	width: 40%;
+	height: auto;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.imgcapa {
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: 0 auto 0 auto;
+	border:5px #fff;
+}
+
+.titulo_filme h2{
+	color: #ff6633;
+	text-decoration: none;
+}
+
+.corpo li {
+	display: inline;
+	background-image: url(../img/back2.jpg);
+	background-repeat: repeat-x repeat-y;
+}
+
+.download{
+	width: 20%;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+
+.footer{
+width: 100%; background: #fff; margin: 0% 0%; float: left;
+color: rgb(14, 12, 12);
+text-align: center;
+font-weight: bold;
+font-size: 75%;
+font-style: italic;
+text-transform: uppercase;
+}
+
+.logo{
+		width: 10%;
+		height: auto;
+}
+
+.corpo2{
+	text-align: center;
+	color: #fff;
+	margin: 10% 0 10% 0;
+}
