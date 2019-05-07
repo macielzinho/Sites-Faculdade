@@ -1,4 +1,4 @@
-
+/*--Guilherme Maciel--*/
 /* Animação da tela poha */
 
 html {
@@ -189,7 +189,7 @@ input[type=text]:placeholder {
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-.fadeIn {
+.gradual {
   opacity:0;
   -webkit-animation:fadeIn ease-in 1;
   -moz-animation:fadeIn ease-in 1;
@@ -204,28 +204,40 @@ input[type=text]:placeholder {
   animation-duration:1s;
 }
 
-.fadeIn.first {
+.gradual.primeiro {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-.fadeIn.second {
+.gradual.segundo {
   -webkit-animation-delay: 0.6s;
   -moz-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
-.fadeIn.third {
+.gradual.terceiro {
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
-.fadeIn.fourth {
+.gradual.quarto {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
+}
+
+.gradual.quinto {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.gradual.sexto {
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 /* Simple CSS3 Fade-in Animation */
@@ -278,3 +290,4 @@ input[type=text]:placeholder {
     top: 0;
 
 }
+/*-----------------------------------------------inventando---------------------------------------------*/
