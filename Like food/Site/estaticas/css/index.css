@@ -276,11 +276,11 @@ input[type=text]:placeholder {
 
 .backlog
 {
-    background-image: url('../img/back.jpg');
+    background: rgb(156, 14, 13) url('../img/back.jpg') repeat-x top left; /*esta linha faz o degrade ficar infinito*/
     background-repeat: no-repeat;
     background-size:100%;
     bottom: 0;
-    color: black;
+    color: rgb(255, 255, 255);
     left: 0;
     overflow: auto;
     padding: 3em;
@@ -290,4 +290,22 @@ input[type=text]:placeholder {
     top: 0;
 
 }
-/*-----------------------------------------------inventando---------------------------------------------*/
+/*-----------------------------------------------NavBar---------------------------------------------*/
+.brand{
+  background-size: 10px;
+}
+
+/*-----------------------------------------------sei não---------------------------------------------*/
+.img {
+  background: rgb(156, 14, 13);
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: 50px auto 0 auto;
+}
+
+#table1{
+  background: rgb(156, 14, 13);
+  width: 587px;
+  height: 88px;
+}
